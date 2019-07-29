@@ -26,5 +26,9 @@ public class Main {
 		ApplicationContext applicationContext4 = new ClassPathXmlApplicationContext("hello-service3.xml");
 		HelloService3 helloService4 = applicationContext4.getBean(HelloService3.class);
 		System.out.println(helloService4.hello());
+		System.out.println("***************");
+		ApplicationContext applicationContext5 = new ClassPathXmlApplicationContext("applicationContext.xml");
+		HelloService helloService5 = applicationContext5.getBean("helloService",HelloService.class);
+		System.out.println(helloService5.hello());
 	}
 }

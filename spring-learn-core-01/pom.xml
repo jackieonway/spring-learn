@@ -8,7 +8,7 @@
     <artifactId>spring-learn-core-01</artifactId>
     <version>0.0.1</version>
     <properties>
-        <spring.version>5.1.2.RELEASE</spring.version>
+        <spring.version>5.2.22.RELEASE</spring.version>
     </properties>
     <dependencies>
         <dependency>
